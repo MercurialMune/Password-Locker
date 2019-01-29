@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9c032c7-477b-430d-844f-9b2df895a066" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="318">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+            <state relative-caret-position="303">
+              <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -66,8 +68,8 @@
         <option value="$PROJECT_DIR$/credential.py" />
         <option value="$PROJECT_DIR$/credential_test.py" />
         <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/user.py" />
         <option value="$PROJECT_DIR$/user_test.py" />
+        <option value="$PROJECT_DIR$/user.py" />
       </list>
     </option>
   </component>
@@ -109,7 +111,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for user_test.TestUser.test_save_multiple_users">
+  <component name="RunManager" selected="Python tests.Unittests for user_test.TestUser.test_display_all_users">
+    <configuration name="Unittests for user_test.TestUser.test_delete_user" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Password-Locker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;user_test.TestUser.test_delete_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for user_test.TestUser.test_display_all_users" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Password-Locker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;user_test.TestUser.test_display_all_users&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for user_test.TestUser.test_save_multiple_users" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Password-Locker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,6 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for user_test.TestUser.test_display_all_users" />
+        <item itemvalue="Python tests.Unittests for user_test.TestUser.test_delete_user" />
         <item itemvalue="Python tests.Unittests for user_test.TestUser.test_save_multiple_users" />
         <item itemvalue="Python tests.Unittests for user_test.TestUser.test_save_user" />
       </list>
@@ -173,6 +205,15 @@
     </history-entry>
     <history-entry file="Unittests_for_user_test_TestUser_test_save_multiple_users - 2019.01.29 at 18h 34m 51s.xml">
       <configuration name="Unittests for user_test.TestUser.test_save_multiple_users" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_user_test_TestUser_test_delete_user - 2019.01.29 at 18h 40m 06s.xml">
+      <configuration name="Unittests for user_test.TestUser.test_delete_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_user_test_TestUser_test_delete_user - 2019.01.29 at 18h 41m 00s.xml">
+      <configuration name="Unittests for user_test.TestUser.test_delete_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_user_test_TestUser_test_display_all_users - 2019.01.29 at 18h 43m 15s.xml">
+      <configuration name="Unittests for user_test.TestUser.test_display_all_users" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -227,20 +268,20 @@
     <entry file="file://$PROJECT_DIR$/credential.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        <state relative-caret-position="303">
+          <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -18,5 +18,12 @@ class User:
         '''
         User.users_array.append(self)
 
+    def delete_user(self):
+        '''
+        delete_contact method deletes contact objects from contact_list
+        '''
+        User.users_array.remove(self)
+
+    def display_users(self):
 
 
