@@ -1,4 +1,5 @@
 import unittest
+import pyperclip
 from user import User
 
 
@@ -62,3 +63,6 @@ class TestUser(unittest.TestCase):
 
         self.assertEqual(User.display_users(), User.users_array)
 
+
+if __name__ == '__main__':
+    unittest.main()

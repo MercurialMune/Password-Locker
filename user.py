@@ -1,3 +1,4 @@
+import pyperclip
 class User:
     '''
     a class that generates new instances of users
@@ -24,6 +25,12 @@ class User:
         '''
         User.users_array.remove(self)
 
-    def display_users(self):
+    @classmethod
+    def display_users(cls):
+        '''
+        method that returns the contact list
+        '''
+        return cls.users_array
+
 
 
