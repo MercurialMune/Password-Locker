@@ -18,3 +18,5 @@ class User:
         '''
         User.users_array.append(self)
 
+
+
