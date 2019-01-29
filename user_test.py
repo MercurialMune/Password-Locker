@@ -10,6 +10,12 @@ class TestUser(unittest.TestCase):
         '''
         self.new_user = User("James","Muriuki","0712345678","james@ms.com") # create user object
 
+    def tearDown(self):
+        '''
+        tearDown method that does clean up after each test case has run.
+        '''
+        User.users_array = []
+
     def test_init(self):
         '''
         test_init test case to test if the object is initialized properly
@@ -37,4 +43,17 @@ class TestUser(unittest.TestCase):
         test_user = User("Test", "user", "0712345678", "test@user.com")  # new user
         test_user.save_user_details()
         self.assertEqual(len(User.users_array), 2)
+
+    def test_delete_user(self):
+        '''
+        test_delete_contact to test if we can remove a contact from our contact list
+        '''
+        self.new_user.save_user_details()
+        test_user = User("Test", "user", "0712345678", "test@user.com")  # new user
+        test_user.save_user_details()
+
+        self.new_user.delete_user()  # Deleting a user object
+        self.assertEqual(len(User.users_array), 1)
+
+
 

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9c032c7-477b-430d-844f-9b2df895a066" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="217">
+              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -111,7 +109,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Unittests for user_test.TestUser.test_save_multiple_users">
+    <configuration name="Unittests for user_test.TestUser.test_save_multiple_users" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Password-Locker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;user_test.TestUser.test_save_multiple_users&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for user_test.TestUser.test_save_user" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Password-Locker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for user_test.TestUser.test_save_multiple_users" />
         <item itemvalue="Python tests.Unittests for user_test.TestUser.test_save_user" />
       </list>
     </recent_temporary>
@@ -154,6 +167,12 @@
     </history-entry>
     <history-entry file="Unittests_for_user_test_TestUser_test_save_user - 2019.01.29 at 18h 24m 09s.xml">
       <configuration name="Unittests for user_test.TestUser.test_save_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_user_test_TestUser_test_save_multiple_users - 2019.01.29 at 18h 33m 14s.xml">
+      <configuration name="Unittests for user_test.TestUser.test_save_multiple_users" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_user_test_TestUser_test_save_multiple_users - 2019.01.29 at 18h 34m 51s.xml">
+      <configuration name="Unittests for user_test.TestUser.test_save_multiple_users" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -217,8 +236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="217">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
