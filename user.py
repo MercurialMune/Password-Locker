@@ -17,3 +17,4 @@ class User:
         save_contact method saves contact objects into contact_list
         '''
         User.users_array.append(self)
+
