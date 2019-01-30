@@ -33,16 +33,6 @@ class TestUser(unittest.TestCase):
         self.new_credential.save_credential()  # saving the new credential
         self.assertEqual(len(Credential.credential_array), 1)
 
-    def test_delete_cred(self):
-        """
-        test_delete_cred to test if we can remove a credential from our credential list
-        """
-        self.new_credential.save_credential()
-        test_credential = Credential("Test", "0712345678", "test@user.com")  # new user
-        test_credential.save_credential()
-        self.new_credential.delete_credential()  # Deleting a user object
-        self.assertEqual(len(Credential.credential_array), 1)
-
     def test_display_credentials(self):
         """
         method that returns a list of saved credentials
