@@ -22,7 +22,7 @@ class Credential:
     @classmethod
     def display_credential(cls):
         """
-        method that returns the contact list
+        method that returns the credential list
         """
         return cls.credential_array
 
