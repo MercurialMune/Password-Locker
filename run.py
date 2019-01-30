@@ -63,15 +63,6 @@ def display_cred():
     return Credential.display_credential()
 
 
-def account():
-    """
-    Function that stores account details
-    :return: site
-    """
-    site = input()
-    return site
-
-
 def main():
 
     print(colored("Welcome to your Password Locker, choose your path from the list of allowed actions", "green"))
