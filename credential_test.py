@@ -1,5 +1,4 @@
 import unittest
-# import pyperclip
 from credential import Credential
 
 

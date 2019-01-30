@@ -1,8 +1,3 @@
-# import pyperclip
-
-# users_array = []
-
-
 class User:
     """
     a class that generates new instances of users
