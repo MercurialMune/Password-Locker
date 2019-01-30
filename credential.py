@@ -19,12 +19,6 @@ class Credential:
         """
         Credential.credential_array.append(self)
 
-    def delete_credential(self):
-        """
-        delete_contact method deletes contact objects from credential_array
-        """
-        Credential.credential_array.remove(self)
-
     @classmethod
     def display_credential(cls):
         """

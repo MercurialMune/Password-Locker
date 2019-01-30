@@ -43,16 +43,6 @@ class TestUser(unittest.TestCase):
         test_user.save_user_details()
         self.assertEqual(len(User.users_array), 2)
 
-    def test_delete_user(self):
-        """
-        test_delete_user to test if we can remove a contact from the users list
-        """
-        self.new_user.save_user_details()
-        test_user = User("Test", "user", "0712345678", "test@user.com")  # new user
-        test_user.save_user_details()
-        self.new_user.delete_user()  # Deleting a user object
-        self.assertEqual(len(User.users_array), 1)
-
     def test_display_all_users(self):
         """
         method that returns a list of all users saved
