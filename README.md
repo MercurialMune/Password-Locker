@@ -1,4 +1,4 @@
-# The Mercurial JavaScript Quiz Board
+# The Mercurial Password Locker
 
 
 ## Project Description
