@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9c032c7-477b-430d-844f-9b2df895a066" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credential.py" beforeDir="false" afterPath="$PROJECT_DIR$/credential.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/credential_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/credential_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" selection-end-line="34" />
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -37,29 +39,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/credential.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/credential_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/credential_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+            <state relative-caret-position="465">
+              <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+              <folding>
+                <element signature="e#25#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,15 +82,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/user_test.py" />
-        <option value="$PROJECT_DIR$/user.py" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/credential.py" />
         <option value="$PROJECT_DIR$/credential_test.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/user.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="683" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="683" />
     <option name="height" value="707" />
@@ -112,7 +113,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in credential_test.py">
+  <component name="RunManager" selected="Python.run">
+    <configuration name="credential" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Password-Locker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/credential.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Password-Locker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,20 +154,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for user_test.TestUser.test_delete_user" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Password-Locker" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;user_test.TestUser.test_delete_user&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for user_test.TestUser.test_display_all_users" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -192,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in credential_test.py" />
         <item itemvalue="Python.run" />
+        <item itemvalue="Python tests.Unittests in credential_test.py" />
+        <item itemvalue="Python.credential" />
         <item itemvalue="Python tests.Unittests in user_test.py" />
         <item itemvalue="Python tests.Unittests for user_test.TestUser.test_display_all_users" />
-        <item itemvalue="Python tests.Unittests for user_test.TestUser.test_delete_user" />
       </list>
     </recent_temporary>
   </component>
@@ -214,21 +222,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_user_test_TestUser_test_save_multiple_users - 2019.01.29 at 18h 33m 14s.xml">
-      <configuration name="Unittests for user_test.TestUser.test_save_multiple_users" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_user_test_TestUser_test_save_multiple_users - 2019.01.29 at 18h 34m 51s.xml">
-      <configuration name="Unittests for user_test.TestUser.test_save_multiple_users" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_user_test_TestUser_test_delete_user - 2019.01.29 at 18h 40m 06s.xml">
-      <configuration name="Unittests for user_test.TestUser.test_delete_user" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_user_test_TestUser_test_delete_user - 2019.01.29 at 18h 41m 00s.xml">
-      <configuration name="Unittests for user_test.TestUser.test_delete_user" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_user_test_TestUser_test_display_all_users - 2019.01.29 at 18h 43m 15s.xml">
-      <configuration name="Unittests for user_test.TestUser.test_display_all_users" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_user_test_TestUser_test_display_all_users - 2019.01.29 at 18h 46m 43s.xml">
       <configuration name="Unittests for user_test.TestUser.test_display_all_users" configurationId="tests" />
     </history-entry>
@@ -244,9 +237,24 @@
     <history-entry file="Unittests_in_credential_test_py - 2019.01.30 at 07h 54m 07s.xml">
       <configuration name="Unittests in credential_test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_credential_test_py - 2019.01.30 at 08h 01m 30s.xml">
+      <configuration name="Unittests in credential_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_credential_test_py - 2019.01.30 at 08h 02m 23s.xml">
+      <configuration name="Unittests in credential_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_credential_test_py - 2019.01.30 at 08h 02m 54s.xml">
+      <configuration name="Unittests in credential_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_credential_test_py - 2019.01.30 at 08h 03m 15s.xml">
+      <configuration name="Unittests in credential_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_credential_test_py - 2019.01.30 at 08h 07m 09s.xml">
+      <configuration name="Unittests in credential_test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="22" width="683" height="707" extended-state="4" />
+    <frame x="0" y="22" width="1366" height="707" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -288,13 +296,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -305,26 +306,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/credential.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/credential_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#25#46#0" expanded="true" />
           </folding>
         </state>
       </provider>

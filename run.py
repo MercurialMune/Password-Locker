@@ -1,5 +1,6 @@
 #!/usr/bin/env python3.6
 from user import User
+from user import Credential
 
 
 def create_user(fname, lname, phone, email):
@@ -10,11 +11,20 @@ def create_user(fname, lname, phone, email):
     return new_user
 
 
+def create_credential(u_name, p_word, email):
+    '''
+    Function to create a new user
+    '''
+    new_credential = Credential(u_name, p_word, email)
+    return new_credential
+
+
 def save_user(user):
     '''
     Function to save user
     '''
     user.save_user_details()
+    Credential.save_credential()
 
 
 def del_user(user):
@@ -29,6 +39,7 @@ def display_user():
     Function that returns all the saved contacts
     '''
     return User.display_users()
+    return Credential.display_credential()
 
 
 def main():
@@ -58,6 +69,9 @@ def main():
 
             print("Email address ...")
             e_address = input()
+
+            print("Enter username ...")
+            user_name = input()
 
             save_user (create_user(f_name,l_name,p_number,e_address)) # create and save new user account.
             print ('\n')

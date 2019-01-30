@@ -1,7 +1,8 @@
 import unittest
+
 import pyperclip
-from user import User
-from credential import Credential
+
+from user import Credential
 
 
 class TestUser(unittest.TestCase):
@@ -40,18 +41,18 @@ class TestUser(unittest.TestCase):
         test_delete_contact to test if we can remove a contact from our contact list
         '''
         self.new_credential.save_credential()
-        test_user = User("Test", "user", "0712345678", "test@user.com")  # new user
-        test_user.save_user_details()
+        test_credential = Credential("Test", "0712345678", "test@user.com")  # new user
+        test_credential.save_credential()
 
-        self.new_user.delete_user()  # Deleting a user object
-        self.assertEqual(len(User.users_array), 1)
+        self.new_credential.delete_credential()  # Deleting a user object
+        self.assertEqual(len(Credential.credential_array), 1)
 
-    def test_display_all_users(self):
+    def test_display_credentials(self):
         '''
         method that returns a list of all users saved
         '''
 
-        self.assertEqual(User.display_users(), User.users_array)
+        self.assertEqual(Credential.display_credential(), Credential.credential_array)
 
 
 if __name__ == '__main__':
