@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9c032c7-477b-430d-844f-9b2df895a066" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mercurial.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credential.py" beforeDir="false" afterPath="$PROJECT_DIR$/credential.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credential_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/credential_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="73" column="168" selection-start-line="73" selection-start-column="168" selection-end-line="73" selection-end-column="168" />
+            <state relative-caret-position="272">
+              <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
               <folding>
                 <element signature="e#25#46#0" expanded="true" />
               </folding>
@@ -120,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in user_test.py">
+  <component name="RunManager" selected="Python.run">
     <configuration name="credential" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Password-Locker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,9 +207,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
         <item itemvalue="Python tests.Unittests in user_test.py" />
         <item itemvalue="Python.user" />
-        <item itemvalue="Python.run" />
         <item itemvalue="Python tests.Unittests in credential_test.py" />
         <item itemvalue="Python.credential" />
       </list>
@@ -346,8 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="73" column="168" selection-start-line="73" selection-start-column="168" selection-end-line="73" selection-end-column="168" />
+        <state relative-caret-position="272">
+          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
           <folding>
             <element signature="e#25#46#0" expanded="true" />
           </folding>

@@ -63,12 +63,18 @@ def display_cred():
     return Credential.display_credential()
 
 
-def main():
-    print(colored("Hey There!!! What site do you want to create an account for?", "green"))
+def account():
+    """
+    Function that stores account details
+    :return: site
+    """
     site = input()
+    return site
 
-    print(colored(f"Aah!! So you love {site}? Regarding {site}, what would you like to do?", "green"))
-    print('\n')
+
+def main():
+
+    print(colored("Welcome to your Password Locker, choose your path from the list of allowed actions", "green"))
 
     while True:
         print(colored("Allowed Actions: \n ad - create a new user account with a user-defined password\n ag - create a new user account with a auto-generated password\n da - display all user accounts \n ex -exit the contact list \n", "green"))
@@ -78,6 +84,9 @@ def main():
         if short_code == 'ad':
             print(colored("New User", "blue"))
             print(colored("-"*10, "blue"))
+            print(colored("Hey There!!! What site do you want to create an account for?", "green"))
+            site = input()
+            print(colored(f"Aah!! So you love {site}?", "green"))
 
             print(colored("First name ....", "blue"))
             f_name = input()
@@ -100,13 +109,16 @@ def main():
             save_user(create_user(f_name, l_name, p_number, e_address))  # create and save new user account.
             save_cred(create_credential(user_name, pword, e_address))  # create and save a credential listing for the above user
             print('\n')
-            print(colored(f" A new user account by {f_name} {l_name} has successfully been created", "green"))
+            print(colored(f" A new {site} account by {f_name} {l_name} has successfully been created", "green"))
             print(colored(f" The username is {user_name} and the password is {pword}", "green"))
             print('\n')
 
         elif short_code == 'ag':
             print(colored("New User", "blue"))
             print(colored("-" * 10, "blue"))
+            print(colored("Hey There!!! What site do you want to create an account for?", "green"))
+            site = input()
+            print(colored(f"Aah!! So you love {site}?", "green"))
 
             print(colored("First name ....", "blue"))
             f_name = input()
@@ -129,7 +141,7 @@ def main():
             save_user(create_user(f_name,l_name,p_number,e_address))  # create and save new user account.
             save_cred(create_credential(user_name, pword, e_address))  # create and save a credential listing for the above user
             print('\n')
-            print(colored(f" A {site} new user account by {f_name} {l_name} has successfully been created", "green"))
+            print(colored(f" A new {site} account by {f_name} {l_name} has successfully been created", "green"))
             print(colored(f" The username is {user_name} and the password is {pword}", "green"))
             print('\n')
 
