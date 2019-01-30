@@ -15,7 +15,7 @@ class Credential:
 
     def save_credential(self):
         """
-        save_contact method saves contact objects into credential_array
+        save_contact method saves credentials objects into credential_array
         """
         Credential.credential_array.append(self)
 
