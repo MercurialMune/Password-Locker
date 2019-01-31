@@ -64,65 +64,65 @@ def display_cred():
 
 def main():
 
-    print("Welcome to your Password Locker, choose your path from the list of allowed actions", "green")
+    print("Welcome to your Password Locker, choose your path from the list of allowed actions")
 
     while True:
-        print("Allowed Actions: \n ad - create a new user account with a user-defined password\n ag - create a new user account with a auto-generated password\n da - display all user accounts \n ex -exit the contact list \n", "green")
+        print("Allowed Actions: \n ad - create a new user account with a user-defined password\n ag - create a new user account with a auto-generated password\n da - display all user accounts \n ex -exit the contact list \n")
 
         short_code = input().lower()
 
         if short_code == 'ad':
             print("New User", "blue")
             print("-"*10, "blue")
-            print("Hey There!!! What site do you want to create an account for?", "green")
+            print("Hey There!!! What site do you want to create an account for?")
             site = input()
-            print(f"Aah!! So you love {site}?", "green")
+            print(f"Aah!! So you love {site}?")
 
-            print("First name ....", "blue")
+            print("First name ....")
             f_name = input()
 
-            print("Last name ...", "blue")
+            print("Last name ...")
             l_name = input()
 
-            print("Phone number ...", "blue")
+            print("Phone number ...")
             p_number = input()
 
-            print("Email address ...", "blue")
+            print("Email address ...")
             e_address = input()
 
-            print("Enter username ...", "blue")
+            print("Enter username ..."
             user_name = input()
 
-            print("Enter Password ...", "blue")
+            print("Enter Password ...")
             pword = input()
 
             save_user(create_user(f_name, l_name, p_number, e_address))  # create and save new user account.
             save_cred(create_credential(user_name, pword, e_address))  # create and save a credential listing for the above user
             print('\n')
-            print(f" A new {site} account by {f_name} {l_name} has successfully been created", "green")
-            print(f" The username is {user_name} and the password is {pword}", "green")
+            print(f" A new {site} account by {f_name} {l_name} has successfully been created")
+            print(f" The username is {user_name} and the password is {pword}")
             print('\n')
 
         elif short_code == 'ag':
-            print("New User", "blue")
-            print("-" * 10, "blue")
-            print("Hey There!!! What site do you want to create an account for?", "green")
+            print("New User")
+            print("-" * 10)
+            print("Hey There!!! What site do you want to create an account for?")
             site = input()
-            print(f"Aah!! So you love {site}?", "green")
+            print(f"Aah!! So you love {site}?")
 
-            print("First name ....", "blue")
+            print("First name ....")
             f_name = input()
 
-            print("Last name ...", "blue")
+            print("Last name ...", )
             l_name = input()
 
-            print("Phone number ...", "blue")
+            print("Phone number ...")
             p_number = input()
 
-            print("Email address ...", "blue")
+            print("Email address ...")
             e_address = input()
 
-            print("Enter username ... Hint: a secure password will be generated for you...", "blue")
+            print("Enter username ... Hint: a secure password will be generated for you...")
             user_name = input()
 
             s = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
@@ -131,14 +131,14 @@ def main():
             save_user(create_user(f_name,l_name,p_number,e_address))  # create and save new user account.
             save_cred(create_credential(user_name, pword, e_address))  # create and save a credential listing for the above user
             print('\n')
-            print(f" A new {site} account by {f_name} {l_name} has successfully been created", "green")
-            print(f" The username is {user_name} and the password is {pword}", "green")
+            print(f" A new {site} account by {f_name} {l_name} has successfully been created")
+            print(f" The username is {user_name} and the password is {pword}")
             print('\n')
 
         elif short_code == 'da':
 
             if display_user():
-                print("Here is a list of all your user accounts", "green")
+                print("Here is a list of all your user accounts")
                 print('\n')
 
                 for user in display_user():
@@ -147,14 +147,14 @@ def main():
                 print('\n')
             else:
                 print('\n')
-                print("You don't seem to have any existing accounts", "yellow")
+                print("You don't seem to have any existing accounts")
                 print('\n')
 
         elif short_code == "ex":
-            print(":/ See you soon then...", "yellow")
+            print(":/ See you soon then...")
             break
         else:
-            print(" :( Only key in the allowed actions !!", "red")
+            print(" :( Only key in the allowed actions !!")
 
 
 if __name__ == '__main__':
