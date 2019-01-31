@@ -34,7 +34,6 @@ At the terminal, run the following command:
 ## Technologies Used
 
 * Python
-* TermColor
 
 ## Contributing
 
