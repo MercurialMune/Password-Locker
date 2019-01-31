@@ -2,7 +2,6 @@
 from user import User
 from credential import Credential
 import random
-from termcolor import colored
 
 
 def create_user(fname, lname, phone, email):
@@ -65,65 +64,65 @@ def display_cred():
 
 def main():
 
-    print(colored("Welcome to your Password Locker, choose your path from the list of allowed actions", "green"))
+    print("Welcome to your Password Locker, choose your path from the list of allowed actions", "green")
 
     while True:
-        print(colored("Allowed Actions: \n ad - create a new user account with a user-defined password\n ag - create a new user account with a auto-generated password\n da - display all user accounts \n ex -exit the contact list \n", "green"))
+        print("Allowed Actions: \n ad - create a new user account with a user-defined password\n ag - create a new user account with a auto-generated password\n da - display all user accounts \n ex -exit the contact list \n", "green")
 
         short_code = input().lower()
 
         if short_code == 'ad':
-            print(colored("New User", "blue"))
-            print(colored("-"*10, "blue"))
-            print(colored("Hey There!!! What site do you want to create an account for?", "green"))
+            print("New User", "blue")
+            print("-"*10, "blue")
+            print("Hey There!!! What site do you want to create an account for?", "green")
             site = input()
-            print(colored(f"Aah!! So you love {site}?", "green"))
+            print(f"Aah!! So you love {site}?", "green")
 
-            print(colored("First name ....", "blue"))
+            print("First name ....", "blue")
             f_name = input()
 
-            print(colored("Last name ...", "blue"))
+            print("Last name ...", "blue")
             l_name = input()
 
-            print(colored("Phone number ...", "blue"))
+            print("Phone number ...", "blue")
             p_number = input()
 
-            print(colored("Email address ...", "blue"))
+            print("Email address ...", "blue")
             e_address = input()
 
-            print(colored("Enter username ...", "blue"))
+            print("Enter username ...", "blue")
             user_name = input()
 
-            print(colored("Enter Password ...", "blue"))
+            print("Enter Password ...", "blue")
             pword = input()
 
             save_user(create_user(f_name, l_name, p_number, e_address))  # create and save new user account.
             save_cred(create_credential(user_name, pword, e_address))  # create and save a credential listing for the above user
             print('\n')
-            print(colored(f" A new {site} account by {f_name} {l_name} has successfully been created", "green"))
-            print(colored(f" The username is {user_name} and the password is {pword}", "green"))
+            print(f" A new {site} account by {f_name} {l_name} has successfully been created", "green")
+            print(f" The username is {user_name} and the password is {pword}", "green")
             print('\n')
 
         elif short_code == 'ag':
-            print(colored("New User", "blue"))
-            print(colored("-" * 10, "blue"))
-            print(colored("Hey There!!! What site do you want to create an account for?", "green"))
+            print("New User", "blue")
+            print("-" * 10, "blue")
+            print("Hey There!!! What site do you want to create an account for?", "green")
             site = input()
-            print(colored(f"Aah!! So you love {site}?", "green"))
+            print(f"Aah!! So you love {site}?", "green")
 
-            print(colored("First name ....", "blue"))
+            print("First name ....", "blue")
             f_name = input()
 
-            print(colored("Last name ...", "blue"))
+            print("Last name ...", "blue")
             l_name = input()
 
-            print(colored("Phone number ...", "blue"))
+            print("Phone number ...", "blue")
             p_number = input()
 
-            print(colored("Email address ...", "blue"))
+            print("Email address ...", "blue")
             e_address = input()
 
-            print(colored("Enter username ... Hint: a secure password will be generated for you...", "blue"))
+            print("Enter username ... Hint: a secure password will be generated for you...", "blue")
             user_name = input()
 
             s = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
@@ -132,14 +131,14 @@ def main():
             save_user(create_user(f_name,l_name,p_number,e_address))  # create and save new user account.
             save_cred(create_credential(user_name, pword, e_address))  # create and save a credential listing for the above user
             print('\n')
-            print(colored(f" A new {site} account by {f_name} {l_name} has successfully been created", "green"))
-            print(colored(f" The username is {user_name} and the password is {pword}", "green"))
+            print(f" A new {site} account by {f_name} {l_name} has successfully been created", "green")
+            print(f" The username is {user_name} and the password is {pword}", "green")
             print('\n')
 
         elif short_code == 'da':
 
             if display_user():
-                print(colored("Here is a list of all your user accounts", "green"))
+                print("Here is a list of all your user accounts", "green")
                 print('\n')
 
                 for user in display_user():
@@ -148,14 +147,14 @@ def main():
                 print('\n')
             else:
                 print('\n')
-                print(colored("You don't seem to have any existing accounts", "yellow"))
+                print("You don't seem to have any existing accounts", "yellow")
                 print('\n')
 
         elif short_code == "ex":
-            print(colored(":/ See you soon then...", "yellow"))
+            print(":/ See you soon then...", "yellow")
             break
         else:
-            print(colored(" :( Only key in the allowed actions !!", "red"))
+            print(" :( Only key in the allowed actions !!", "red")
 
 
 if __name__ == '__main__':
